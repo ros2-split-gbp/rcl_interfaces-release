@@ -1,0 +1,13 @@
+Source: ros-r2b3-rcl-interfaces
+Section: misc
+Priority: extra
+Maintainer: Tully Foote <tfoote@osrfoundation.org>
+Build-Depends: debhelper (>= 9.0.0), ros-r2b3-ament-cmake, ros-r2b3-ament-lint-auto, ros-r2b3-ament-lint-common, ros-r2b3-rosidl-default-generators, ros-r2b3-ros-workspace
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-r2b3-rcl-interfaces
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-r2b3-rosidl-default-runtime, ros-r2b3-ros-workspace
+Description: The ROS client library common interfaces.
+ This package contains the messages and services which ROS client libraries will use under the hood to communicate higher level concepts such as parameters.
