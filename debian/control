@@ -1,0 +1,12 @@
+Source: ros-ardent-lifecycle-msgs
+Section: misc
+Priority: extra
+Maintainer: Karsten Knese <karsten@osrfoundation.org>
+Build-Depends: debhelper (>= 9.0.0), ros-ardent-ament-cmake, ros-ardent-ament-lint-auto, ros-ardent-ament-lint-common, ros-ardent-rosidl-default-generators, ros-ardent-ros-workspace
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-ardent-lifecycle-msgs
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-ardent-rosidl-default-runtime, ros-ardent-ros-workspace
+Description: A package containing some lifecycle related message and service definitions.
