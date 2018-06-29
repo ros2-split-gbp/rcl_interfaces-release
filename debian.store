@@ -1,1 +1,1 @@
-{"trim": "", "parent": "debian/bouncy/rosgraph_msgs", "base": "9729611", "previous": "dba3e79", "trimbase": ""}
+{"previous": "8bd0d2f", "parent": "debian/bouncy/rosgraph_msgs", "trimbase": "", "base": "cf7febc", "trim": ""}
