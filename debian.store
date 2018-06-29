@@ -1,1 +1,1 @@
-{"trim": "", "parent": "debian/bouncy/lifecycle_msgs", "base": "cb2111b", "previous": "7b3025e", "trimbase": ""}
+{"previous": "65024e6", "parent": "debian/bouncy/lifecycle_msgs", "trimbase": "", "base": "9b39ee5", "trim": ""}
