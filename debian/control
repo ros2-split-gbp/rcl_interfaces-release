@@ -1,0 +1,13 @@
+Source: ros-crystal-rosgraph-msgs
+Section: misc
+Priority: extra
+Maintainer: Dirk Thomas <dthomas@osrfoundation.org>
+Build-Depends: debhelper (>= 9.0.0), ros-crystal-ament-cmake, ros-crystal-ament-lint-common, ros-crystal-builtin-interfaces, ros-crystal-rosidl-default-generators, ros-crystal-ros-workspace, ros-crystal-rmw-connext-cpp, ros-crystal-rmw-fastrtps-cpp, ros-crystal-rmw-implementation, ros-crystal-rmw-opensplice-cpp, ros-crystal-rosidl-typesupport-connext-c, ros-crystal-rosidl-typesupport-connext-cpp, ros-crystal-rosidl-typesupport-opensplice-c, ros-crystal-rosidl-typesupport-opensplice-cpp
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-crystal-rosgraph-msgs
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-crystal-builtin-interfaces, ros-crystal-rosidl-default-runtime, ros-crystal-ros-workspace
+Description: Messages relating to the ROS Computation Graph.
+ These are generally considered to be low-level messages that end users do not interact with.
