@@ -2,18 +2,22 @@ cmake_minimum_required(VERSION 3.5)
 
 project(test_msgs)
 
+# Default to C11
+if(NOT CMAKE_C_STANDARD)
+  set(CMAKE_C_STANDARD 11)
+endif()
+
 # Default to C++14
 if(NOT CMAKE_CXX_STANDARD)
   set(CMAKE_CXX_STANDARD 14)
 endif()
 if(CMAKE_COMPILER_IS_GNUCXX OR CMAKE_CXX_COMPILER_ID MATCHES "Clang")
-  # we dont use add_compile_options with pedantic in message packages
-  # because the Python C extensions dont comply with it
-  set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -Wall -Wextra -Wpedantic")
+  add_compile_options(-Wall -Wextra -Wpedantic)
 endif()
 
 find_package(ament_cmake REQUIRED)
 find_package(builtin_interfaces REQUIRED)
+find_package(action_msgs REQUIRED)
 find_package(rosidl_default_generators REQUIRED)
 
 set(msg_files
@@ -23,6 +27,7 @@ set(msg_files
   "msg/DynamicArrayNested.msg"
   "msg/DynamicArrayPrimitives.msg"
   "msg/DynamicArrayPrimitivesNested.msg"
+  "msg/DynamicArrayStaticArrayPrimitivesNested.msg"
   "msg/Empty.msg"
   "msg/Nested.msg"
   "msg/Primitives.msg"
@@ -35,15 +40,41 @@ set(srv_files
   "srv/Primitives.srv"
 )
 
+set(action_files
+  "action/Fibonacci.action"
+)
+
 rosidl_generate_interfaces(${PROJECT_NAME}
   ${msg_files}
   ${srv_files}
-  DEPENDENCIES builtin_interfaces
+  ${action_files}
+  DEPENDENCIES builtin_interfaces action_msgs
   ADD_LINTER_TESTS
 )
 
-install(DIRECTORY src/test_msgs
-  DESTINATION "${PYTHON_INSTALL_DIR}/")
+if(BUILD_TESTING)
+  find_package(ament_lint_auto REQUIRED)
+  ament_lint_auto_find_test_dependencies()
+
+  ament_add_gtest(test_action_typesupport_c_builds
+    test/test_c_type_support.cpp)
+  target_include_directories(test_action_typesupport_c_builds PRIVATE
+    include)
+  target_link_libraries(test_action_typesupport_c_builds
+    ${_AMENT_EXPORT_LIBRARIES})
+
+  ament_add_gtest(test_action_typesupport_cpp_builds
+    test/test_cpp_type_support.cpp)
+  target_include_directories(test_action_typesupport_cpp_builds PRIVATE
+    include)
+  target_link_libraries(test_action_typesupport_cpp_builds
+    ${_AMENT_EXPORT_LIBRARIES})
+endif()
+
+if(DEFINED PYTHON_INSTALL_DIR)
+  install(DIRECTORY src/test_msgs
+    DESTINATION "${PYTHON_INSTALL_DIR}/")
+endif()
 
 install(DIRECTORY include/
   DESTINATION include)
