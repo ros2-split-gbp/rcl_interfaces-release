@@ -19,8 +19,10 @@ find_package(ament_cmake REQUIRED)
 find_package(builtin_interfaces REQUIRED)
 find_package(action_msgs REQUIRED)
 find_package(rosidl_default_generators REQUIRED)
+find_package(unique_identifier_msgs REQUIRED)
 
 set(msg_files
+  "msg/BoundedArrayPrimitivesNested.msg"
   "msg/BoundedArrayNested.msg"
   "msg/BoundedArrayPrimitives.msg"
   "msg/Builtins.msg"
@@ -33,6 +35,7 @@ set(msg_files
   "msg/Primitives.msg"
   "msg/StaticArrayNested.msg"
   "msg/StaticArrayPrimitives.msg"
+  "msg/StaticArrayPrimitivesNested.msg"
 )
 
 set(srv_files
@@ -48,7 +51,7 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   ${msg_files}
   ${srv_files}
   ${action_files}
-  DEPENDENCIES builtin_interfaces action_msgs
+  DEPENDENCIES builtin_interfaces action_msgs unique_identifier_msgs
   ADD_LINTER_TESTS
 )
 
@@ -73,7 +76,7 @@ endif()
 
 if(DEFINED PYTHON_INSTALL_DIR)
   install(DIRECTORY src/test_msgs
-    DESTINATION "${PYTHON_INSTALL_DIR}/")
+    DESTINATION "${PYTHON_INSTALL_DIR}")
 endif()
 
 install(DIRECTORY include/
