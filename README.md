@@ -1,3 +1,32 @@
+## rcl_interfaces (crystal) - 0.6.2-0
+
+The packages in the `rcl_interfaces` repository were released into the `crystal` distro by running `/home/steven/osrf/venv/bloom-py2-dev/bin/bloom-release -r crystal rcl_interfaces --override-release-repository-push-url git@github.com:ros2-gbp/rcl_interfaces-release` on `Fri, 11 Jan 2019 20:37:36 -0000`
+
+These packages were released:
+- `action_msgs`
+- `builtin_interfaces`
+- `lifecycle_msgs`
+- `rcl_interfaces`
+- `rosgraph_msgs`
+- `test_msgs`
+
+Version of package(s) in repository `rcl_interfaces`:
+
+- upstream repository: https://github.com/ros2/rcl_interfaces.git
+- release repository: https://github.com/ros2-gbp/rcl_interfaces-release.git
+- rosdistro version: `0.6.1-0`
+- old version: `0.6.1-0`
+- new version: `0.6.2-0`
+
+Versions of tools used:
+
+- bloom version: `0.7.1`
+- catkin_pkg version: `0.4.8`
+- rosdep version: `0.12.2`
+- rosdistro version: `0.7.0`
+- vcstools version: `0.1.40`
+
+
 ## rcl_interfaces (crystal) - 0.6.1-0
 
 The packages in the `rcl_interfaces` repository were released into the `crystal` distro by running `/usr/bin/bloom-release --rosdistro crystal --track crystal rcl_interfaces --override-release-repository-push-url git@github.com:ros2-gbp/rcl_interfaces-release.git` on `Fri, 07 Dec 2018 03:55:38 -0000`
