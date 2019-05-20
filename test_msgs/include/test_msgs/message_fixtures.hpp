@@ -1,3 +1,5 @@
+﻿// NOLINT: This file starts with a BOM since it contain non-ASCII characters
+//
 // Copyright 2015 Open Source Robotics Foundation, Inc.
 //
 // Licensed under the Apache License, Version 2.0 (the "License");
@@ -153,6 +155,12 @@ get_messages_strings()
     auto msg = std::make_shared<test_msgs::msg::Strings>();
     msg->string_value = "Hello world!";
     msg->bounded_string_value = "Hello world!";
+    messages.push_back(msg);
+  }
+  {
+    auto msg = std::make_shared<test_msgs::msg::Strings>();
+    msg->string_value = u8"Hell\u00F6 W\u00F6rld!";  // using umlaut
+    msg->bounded_string_value = u8"Hell\u00F6 W\u00F6rld!";  // using umlaut
     messages.push_back(msg);
   }
   {
