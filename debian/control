@@ -1,0 +1,12 @@
+Source: ros-eloquent-action-msgs
+Section: misc
+Priority: extra
+Maintainer: Karsten Knese <karsten@osrfoundation.org>
+Build-Depends: debhelper (>= 9.0.0), ros-eloquent-ament-cmake, ros-eloquent-ament-lint-auto, ros-eloquent-ament-lint-common, ros-eloquent-builtin-interfaces, ros-eloquent-rosidl-default-generators, ros-eloquent-unique-identifier-msgs, ros-eloquent-ros-workspace, ros-eloquent-rmw-connext-cpp, ros-eloquent-rmw-fastrtps-cpp, ros-eloquent-rmw-implementation, ros-eloquent-rmw-opensplice-cpp, ros-eloquent-rosidl-typesupport-connext-c, ros-eloquent-rosidl-typesupport-connext-cpp, ros-eloquent-rosidl-typesupport-opensplice-c, ros-eloquent-rosidl-typesupport-opensplice-cpp
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-eloquent-action-msgs
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-eloquent-builtin-interfaces, ros-eloquent-rosidl-default-runtime, ros-eloquent-unique-identifier-msgs, ros-eloquent-ros-workspace
+Description: Messages and service definitions common among all ROS actions.
