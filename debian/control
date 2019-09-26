@@ -1,0 +1,12 @@
+Source: ros-eloquent-composition-interfaces
+Section: misc
+Priority: extra
+Maintainer: Shane Loretz <sloretz@osrfoundation.org>
+Build-Depends: debhelper (>= 9.0.0), ros-eloquent-ament-cmake, ros-eloquent-ament-lint-common, ros-eloquent-rcl-interfaces, ros-eloquent-rosidl-default-generators, ros-eloquent-ros-workspace, ros-eloquent-rmw-connext-cpp, ros-eloquent-rmw-fastrtps-cpp, ros-eloquent-rmw-implementation, ros-eloquent-rmw-opensplice-cpp, ros-eloquent-rosidl-typesupport-connext-c, ros-eloquent-rosidl-typesupport-connext-cpp, ros-eloquent-rosidl-typesupport-opensplice-c, ros-eloquent-rosidl-typesupport-opensplice-cpp
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-eloquent-composition-interfaces
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-eloquent-rcl-interfaces, ros-eloquent-rosidl-default-runtime, ros-eloquent-ros-workspace
+Description: A package containing message and service definitions for managing composable nodes in a container process.
