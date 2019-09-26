@@ -1,3 +1,33 @@
+## rcl_interfaces (eloquent) - 0.8.0-1
+
+The packages in the `rcl_interfaces` repository were released into the `eloquent` distro by running `/usr/bin/bloom-release -r eloquent rcl_interfaces` on `Thu, 26 Sep 2019 18:52:18 -0000`
+
+These packages were released:
+- `action_msgs`
+- `builtin_interfaces`
+- `composition_interfaces`
+- `lifecycle_msgs`
+- `rcl_interfaces`
+- `rosgraph_msgs`
+- `test_msgs`
+
+Version of package(s) in repository `rcl_interfaces`:
+
+- upstream repository: https://github.com/ros2/rcl_interfaces.git
+- release repository: unknown
+- rosdistro version: `null`
+- old version: `null`
+- new version: `0.8.0-1`
+
+Versions of tools used:
+
+- bloom version: `0.8.0`
+- catkin_pkg version: `0.4.13`
+- rosdep version: `0.16.1`
+- rosdistro version: `0.7.4`
+- vcstools version: `0.1.42`
+
+
 ## rcl_interfaces (dashing) - 0.7.4-1
 
 The packages in the `rcl_interfaces` repository were released into the `dashing` distro by running `/home/jacob/.local/bin/bloom-release -r dashing rcl_interfaces` on `Thu, 30 May 2019 00:10:41 -0000`
