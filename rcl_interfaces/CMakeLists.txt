@@ -14,12 +14,9 @@ find_package(ament_cmake REQUIRED)
 find_package(rosidl_default_generators REQUIRED)
 find_package(builtin_interfaces REQUIRED)
 
-# ament_export_dependencies(rcl_interfaces)
-
 rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/FloatingPointRange.msg"
   "msg/IntegerRange.msg"
-  "msg/IntraProcessMessage.msg"
   "msg/ListParametersResult.msg"
   "msg/Log.msg"
   "msg/ParameterDescriptor.msg"
