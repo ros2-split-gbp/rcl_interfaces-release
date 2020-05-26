@@ -1,3 +1,34 @@
+## rcl_interfaces (foxy) - 1.0.0-1
+
+The packages in the `rcl_interfaces` repository were released into the `foxy` distro by running `/usr/bin/bloom-release --track foxy --rosdistro foxy rcl_interfaces` on `Tue, 26 May 2020 19:47:37 -0000`
+
+These packages were released:
+- `action_msgs`
+- `builtin_interfaces`
+- `composition_interfaces`
+- `lifecycle_msgs`
+- `rcl_interfaces`
+- `rosgraph_msgs`
+- `statistics_msgs`
+- `test_msgs`
+
+Version of package(s) in repository `rcl_interfaces`:
+
+- upstream repository: https://github.com/ros2/rcl_interfaces.git
+- release repository: https://github.com/ros2-gbp/rcl_interfaces-release.git
+- rosdistro version: `0.9.0-2`
+- old version: `0.9.0-2`
+- new version: `1.0.0-1`
+
+Versions of tools used:
+
+- bloom version: `0.9.7`
+- catkin_pkg version: `0.4.20`
+- rosdep version: `0.19.0`
+- rosdistro version: `0.8.1`
+- vcstools version: `0.1.42`
+
+
 ## rcl_interfaces (foxy) - 0.9.0-2
 
 The packages in the `rcl_interfaces` repository were released into the `foxy` distro by running `/usr/bin/bloom-release -r foxy rcl_interfaces --override-release-repository-push-url git@github.com:ros2-gbp/rcl_interfaces-release` on `Mon, 04 May 2020 21:13:19 -0000`
