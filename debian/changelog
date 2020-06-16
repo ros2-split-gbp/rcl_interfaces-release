@@ -1,0 +1,82 @@
+ros-rolling-rosgraph-msgs (1.0.0-2focal) focal; urgency=high
+
+  * Add quality declarations for each package except test_msgs (#92 <https://github.com/ros2/rcl_interfaces/issues/92>)
+  * Contributors: brawner
+
+ -- Dirk Thomas <dthomas@osrfoundation.org>  Tue, 26 May 2020 04:00:00 -0000
+
+ros-rolling-rosgraph-msgs (0.9.0-2focal) focal; urgency=high
+
+
+
+ -- Dirk Thomas <dthomas@osrfoundation.org>  Sat, 25 Apr 2020 04:00:00 -0000
+
+ros-rolling-rosgraph-msgs (0.8.0-2focal) focal; urgency=high
+
+
+
+ -- Dirk Thomas <dthomas@osrfoundation.org>  Thu, 26 Sep 2019 04:00:00 -0000
+
+ros-rolling-rosgraph-msgs (0.7.4-2focal) focal; urgency=high
+
+
+
+ -- Dirk Thomas <dthomas@osrfoundation.org>  Wed, 29 May 2019 04:00:00 -0000
+
+ros-rolling-rosgraph-msgs (0.7.3-2focal) focal; urgency=high
+
+
+
+ -- Dirk Thomas <dthomas@osrfoundation.org>  Mon, 20 May 2019 04:00:00 -0000
+
+ros-rolling-rosgraph-msgs (0.7.2-2focal) focal; urgency=high
+
+
+
+ -- Dirk Thomas <dthomas@osrfoundation.org>  Wed, 08 May 2019 04:00:00 -0000
+
+ros-rolling-rosgraph-msgs (0.7.1-2focal) focal; urgency=high
+
+
+
+ -- Dirk Thomas <dthomas@osrfoundation.org>  Fri, 26 Apr 2019 04:00:00 -0000
+
+ros-rolling-rosgraph-msgs (0.7.0-2focal) focal; urgency=high
+
+
+
+ -- Dirk Thomas <dthomas@osrfoundation.org>  Sun, 14 Apr 2019 04:00:00 -0000
+
+ros-rolling-rosgraph-msgs (0.6.2-2focal) focal; urgency=high
+
+
+
+ -- Dirk Thomas <dthomas@osrfoundation.org>  Fri, 11 Jan 2019 05:00:00 -0000
+
+ros-rolling-rosgraph-msgs (0.6.1-2focal) focal; urgency=high
+
+
+
+ -- Dirk Thomas <dthomas@osrfoundation.org>  Thu, 06 Dec 2018 05:00:00 -0000
+
+ros-rolling-rosgraph-msgs (0.6.0-2focal) focal; urgency=high
+
+  * use add_compile_options instead of setting only cxx flags
+  * Contributors: Mikael Arguedas
+
+ -- Dirk Thomas <dthomas@osrfoundation.org>  Fri, 16 Nov 2018 05:00:00 -0000
+
+ros-rolling-rosgraph-msgs (0.5.0-2focal) focal; urgency=high
+
+  * move rosgraph_msgs to rcl_interfaces (#34 <https://github.com/ros2/rcl_interfaces/issues/34>)
+  * Contributors: Mikael Arguedas
+
+ -- Dirk Thomas <dthomas@osrfoundation.org>  Sun, 24 Jun 2018 04:00:00 -0000
+
+ros-rolling-rosgraph-msgs (0.4.0-2focal) focal; urgency=high
+
+
+
+ -- Dirk Thomas <dthomas@osrfoundation.org>  Fri, 08 Dec 2017 05:00:00 -0000
+
+
