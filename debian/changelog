@@ -1,0 +1,101 @@
+ros-rolling-test-msgs (1.0.0-2focal) focal; urgency=high
+
+
+
+ -- Karsten Knese <karsten@osrfoundation.org>  Tue, 26 May 2020 04:00:00 -0000
+
+ros-rolling-test-msgs (0.9.0-2focal) focal; urgency=high
+
+  * Remove unused local variable (#96 <https://github.com/ros2/rcl_interfaces/issues/96>)
+  * Contributors: Dirk Thomas
+
+ -- Karsten Knese <karsten@osrfoundation.org>  Sat, 25 Apr 2020 04:00:00 -0000
+
+ros-rolling-test-msgs (0.8.0-2focal) focal; urgency=high
+
+  * Add test fixtures for Arrays.srv (#84 <https://github.com/ros2/rcl_interfaces/issues/84>)
+  * use idl files (if any) (#82 <https://github.com/ros2/rcl_interfaces/issues/82>)
+  * Contributors: Dirk Thomas, Jacob Perron
+
+ -- Karsten Knese <karsten@osrfoundation.org>  Thu, 26 Sep 2019 04:00:00 -0000
+
+ros-rolling-test-msgs (0.7.4-2focal) focal; urgency=high
+
+  * Remove unnecessary action dependencies from CMakeLists.txt (#81 <https://github.com/ros2/rcl_interfaces/issues/81>)
+  * Contributors: Jacob Perron
+
+ -- Karsten Knese <karsten@osrfoundation.org>  Wed, 29 May 2019 04:00:00 -0000
+
+ros-rolling-test-msgs (0.7.3-2focal) focal; urgency=high
+
+  * add test cases for UTF-8 encoded strings (#80 <https://github.com/ros2/rcl_interfaces/issues/80>)
+  * Add UTF-8 BOM to message_fixtures.hpp file (#79 <https://github.com/ros2/rcl_interfaces/issues/79>)
+  * Contributors: Dirk Thomas, Michel Hidalgo
+
+ -- Karsten Knese <karsten@osrfoundation.org>  Mon, 20 May 2019 04:00:00 -0000
+
+ros-rolling-test-msgs (0.7.2-2focal) focal; urgency=high
+
+  * add WString tests (#78 <https://github.com/ros2/rcl_interfaces/issues/78>)
+  * Build interfaces from the package test_interface_files (#77 <https://github.com/ros2/rcl_interfaces/issues/77>)
+  * Contributors: Dirk Thomas, Jacob Perron
+
+ -- Karsten Knese <karsten@osrfoundation.org>  Wed, 08 May 2019 04:00:00 -0000
+
+ros-rolling-test-msgs (0.7.1-2focal) focal; urgency=high
+
+
+
+ -- Karsten Knese <karsten@osrfoundation.org>  Fri, 26 Apr 2019 04:00:00 -0000
+
+ros-rolling-test-msgs (0.7.0-2focal) focal; urgency=high
+
+  * update test fixtures for char type (#64 <https://github.com/ros2/rcl_interfaces/issues/64>)
+  * Add action with nested messages (#62 <https://github.com/ros2/rcl_interfaces/issues/62>)
+  * Contributors: Dirk Thomas, Shane Loretz
+
+ -- Karsten Knese <karsten@osrfoundation.org>  Sun, 14 Apr 2019 04:00:00 -0000
+
+ros-rolling-test-msgs (0.6.2-2focal) focal; urgency=high
+
+  * Fix errors from uncrustify v0.68 (#57 <https://github.com/ros2/rcl_interfaces/issues/57>)
+  * Contributors: Jacob Perron
+
+ -- Karsten Knese <karsten@osrfoundation.org>  Fri, 11 Jan 2019 05:00:00 -0000
+
+ros-rolling-test-msgs (0.6.1-2focal) focal; urgency=high
+
+  * remove trailing slash (#55 <https://github.com/ros2/rcl_interfaces/issues/55>)
+  * Change UUID type in action_msgs (#54 <https://github.com/ros2/rcl_interfaces/issues/54>)
+  * add new test messages for arrays of arrays (#52 <https://github.com/ros2/rcl_interfaces/issues/52>)
+  * Contributors: Alexis Pojomovsky, Dirk Thomas, Karsten Knese
+
+ -- Karsten Knese <karsten@osrfoundation.org>  Thu, 06 Dec 2018 05:00:00 -0000
+
+ros-rolling-test-msgs (0.6.0-2focal) focal; urgency=high
+
+  * Generate action type support / Remove hardcoded action type support (#48 <https://github.com/ros2/rcl_interfaces/issues/48>)
+  * Hardcoded typesupport for Fibonacci action (#47 <https://github.com/ros2/rcl_interfaces/issues/47>)
+  * Add message fixture for DynamicArrayStaticArrayPrimitivesNested (#45 <https://github.com/ros2/rcl_interfaces/issues/45>)
+  * Add test message for dynamic array of static arrays (#43 <https://github.com/ros2/rcl_interfaces/issues/43>)
+  * use add_compile_options instead of setting only cxx flags
+  * Only install the Python messages if PYTHON_INSTALL_DIR is defined (#37 <https://github.com/ros2/rcl_interfaces/issues/37>)
+  * Contributors: Esteve Fernandez, Jacob Perron, Mikael Arguedas, Shane Loretz
+
+ -- Karsten Knese <karsten@osrfoundation.org>  Fri, 16 Nov 2018 05:00:00 -0000
+
+ros-rolling-test-msgs (0.5.0-2focal) focal; urgency=high
+
+
+
+ -- Karsten Knese <karsten@osrfoundation.org>  Sun, 24 Jun 2018 04:00:00 -0000
+
+ros-rolling-test-msgs (0.4.0-2focal) focal; urgency=high
+
+  * member of rosidl_interfaces_packages group (#28 <https://github.com/ros2/rcl_interfaces/issues/28>)
+  * Merge pull request #22 <https://github.com/ros2/rcl_interfaces/issues/22> from ros2/remove_indent_off
+  * Contributors: Dirk Thomas, Mikael Arguedas, Steven! Ragnarök, William Woodall
+
+ -- Karsten Knese <karsten@osrfoundation.org>  Fri, 08 Dec 2017 05:00:00 -0000
+
+
