@@ -1,0 +1,82 @@
+ros-rolling-composition-interfaces (1.0.0-2focal) focal; urgency=high
+
+  * Add quality declarations for each package except test_msgs (#92 <https://github.com/ros2/rcl_interfaces/issues/92>)
+  * Contributors: brawner
+
+ -- Shane Loretz <sloretz@osrfoundation.org>  Tue, 26 May 2020 04:00:00 -0000
+
+ros-rolling-composition-interfaces (0.9.0-2focal) focal; urgency=high
+
+
+
+ -- Shane Loretz <sloretz@osrfoundation.org>  Sat, 25 Apr 2020 04:00:00 -0000
+
+ros-rolling-composition-interfaces (0.8.0-2focal) focal; urgency=high
+
+
+
+ -- Shane Loretz <sloretz@osrfoundation.org>  Thu, 26 Sep 2019 04:00:00 -0000
+
+ros-rolling-composition-interfaces (0.7.4-2focal) focal; urgency=high
+
+
+
+ -- Shane Loretz <sloretz@osrfoundation.org>  Wed, 29 May 2019 04:00:00 -0000
+
+ros-rolling-composition-interfaces (0.7.3-2focal) focal; urgency=high
+
+
+
+ -- Shane Loretz <sloretz@osrfoundation.org>  Mon, 20 May 2019 04:00:00 -0000
+
+ros-rolling-composition-interfaces (0.7.2-2focal) focal; urgency=high
+
+
+
+ -- Shane Loretz <sloretz@osrfoundation.org>  Wed, 08 May 2019 04:00:00 -0000
+
+ros-rolling-composition-interfaces (0.7.1-2focal) focal; urgency=high
+
+
+
+ -- Shane Loretz <sloretz@osrfoundation.org>  Fri, 26 Apr 2019 04:00:00 -0000
+
+ros-rolling-composition-interfaces (0.7.0-2focal) focal; urgency=high
+
+  * Correct minor typo (#65 <https://github.com/ros2/rcl_interfaces/issues/65>)
+  * Add composition_interfaces (#60 <https://github.com/ros2/rcl_interfaces/issues/60>)
+  * Contributors: Michael Carroll, Shane Loretz
+
+ -- Shane Loretz <sloretz@osrfoundation.org>  Sun, 14 Apr 2019 04:00:00 -0000
+
+ros-rolling-composition-interfaces (0.6.2-2focal) focal; urgency=high
+
+
+
+ -- Shane Loretz <sloretz@osrfoundation.org>  Fri, 11 Jan 2019 05:00:00 -0000
+
+ros-rolling-composition-interfaces (0.6.1-2focal) focal; urgency=high
+
+
+
+ -- Shane Loretz <sloretz@osrfoundation.org>  Thu, 06 Dec 2018 05:00:00 -0000
+
+ros-rolling-composition-interfaces (0.6.0-2focal) focal; urgency=high
+
+
+
+ -- Shane Loretz <sloretz@osrfoundation.org>  Fri, 16 Nov 2018 05:00:00 -0000
+
+ros-rolling-composition-interfaces (0.5.0-2focal) focal; urgency=high
+
+
+
+ -- Shane Loretz <sloretz@osrfoundation.org>  Sun, 24 Jun 2018 04:00:00 -0000
+
+ros-rolling-composition-interfaces (0.4.0-2focal) focal; urgency=high
+
+
+
+ -- Shane Loretz <sloretz@osrfoundation.org>  Fri, 08 Dec 2017 05:00:00 -0000
+
+
