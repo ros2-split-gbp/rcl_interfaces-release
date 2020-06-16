@@ -1,1 +1,1 @@
-{"base": "9cec0f6", "parent": "debian/foxy/lifecycle_msgs", "previous": "d3ff2a9", "trim": "", "trimbase": ""}
+{"base": "df4683a", "parent": "debian/rolling/lifecycle_msgs", "previous": "10e755e", "trim": "", "trimbase": ""}
