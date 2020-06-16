@@ -1,0 +1,83 @@
+ros-rolling-action-msgs (1.0.0-2focal) focal; urgency=high
+
+  * Add quality declarations for each package except test_msgs (#92 <https://github.com/ros2/rcl_interfaces/issues/92>)
+  * Contributors: brawner
+
+ -- Karsten Knese <karsten@osrfoundation.org>  Tue, 26 May 2020 04:00:00 -0000
+
+ros-rolling-action-msgs (0.9.0-2focal) focal; urgency=high
+
+
+
+ -- Karsten Knese <karsten@osrfoundation.org>  Sat, 25 Apr 2020 04:00:00 -0000
+
+ros-rolling-action-msgs (0.8.0-2focal) focal; urgency=high
+
+
+
+ -- Karsten Knese <karsten@osrfoundation.org>  Thu, 26 Sep 2019 04:00:00 -0000
+
+ros-rolling-action-msgs (0.7.4-2focal) focal; urgency=high
+
+
+
+ -- Karsten Knese <karsten@osrfoundation.org>  Wed, 29 May 2019 04:00:00 -0000
+
+ros-rolling-action-msgs (0.7.3-2focal) focal; urgency=high
+
+
+
+ -- Karsten Knese <karsten@osrfoundation.org>  Mon, 20 May 2019 04:00:00 -0000
+
+ros-rolling-action-msgs (0.7.2-2focal) focal; urgency=high
+
+  * Add fields for response code to action_msgs/CancelGoal service (#76 <https://github.com/ros2/rcl_interfaces/issues/76>)
+  * Contributors: Jacob Perron
+
+ -- Karsten Knese <karsten@osrfoundation.org>  Wed, 08 May 2019 04:00:00 -0000
+
+ros-rolling-action-msgs (0.7.1-2focal) focal; urgency=high
+
+
+
+ -- Karsten Knese <karsten@osrfoundation.org>  Fri, 26 Apr 2019 04:00:00 -0000
+
+ros-rolling-action-msgs (0.7.0-2focal) focal; urgency=high
+
+
+
+ -- Karsten Knese <karsten@osrfoundation.org>  Sun, 14 Apr 2019 04:00:00 -0000
+
+ros-rolling-action-msgs (0.6.2-2focal) focal; urgency=high
+
+
+
+ -- Karsten Knese <karsten@osrfoundation.org>  Fri, 11 Jan 2019 05:00:00 -0000
+
+ros-rolling-action-msgs (0.6.1-2focal) focal; urgency=high
+
+  * Change UUID type in action_msgs (#54 <https://github.com/ros2/rcl_interfaces/issues/54>)
+  * Contributors: Alexis Pojomovsky
+
+ -- Karsten Knese <karsten@osrfoundation.org>  Thu, 06 Dec 2018 05:00:00 -0000
+
+ros-rolling-action-msgs (0.6.0-2focal) focal; urgency=high
+
+  * Add action_msgs package (#41 <https://github.com/ros2/rcl_interfaces/issues/41>)
+  * Contributors: Jacob Perron
+
+ -- Karsten Knese <karsten@osrfoundation.org>  Fri, 16 Nov 2018 05:00:00 -0000
+
+ros-rolling-action-msgs (0.5.0-2focal) focal; urgency=high
+
+
+
+ -- Karsten Knese <karsten@osrfoundation.org>  Sun, 24 Jun 2018 04:00:00 -0000
+
+ros-rolling-action-msgs (0.4.0-2focal) focal; urgency=high
+
+
+
+ -- Karsten Knese <karsten@osrfoundation.org>  Fri, 08 Dec 2017 05:00:00 -0000
+
+
