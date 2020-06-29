@@ -2,9 +2,9 @@ This document is a declaration of software quality for the `lifecycle_msgs` pack
 
 # `lifecycle_msgs` Quality Declaration
 
-The package `lifecycle_msgs` claims to be in the **Quality Level 4** category.
+The package `lifecycle_msgs` claims to be in the **Quality Level 3** category.
 
-Below are the rationales, notes, and caveats for this claim, organized by each requirement listed in the [Package Requirements for Quality Level 4 in REP-2004](https://www.ros.org/reps/rep-2004.html).
+Below are the rationales, notes, and caveats for this claim, organized by each requirement listed in the [Package Requirements for Quality Level 3 in REP-2004](https://www.ros.org/reps/rep-2004.html).
 
 ## Version Policy [1]
 
@@ -14,7 +14,8 @@ Below are the rationales, notes, and caveats for this claim, organized by each r
 
 ### Version Stability [1.ii]
 
-`lifecycle_msgs` is not yet at a stable version, i.e. `>= 1.0.0`.
+`lifecycle_msgs` is at a stable version, i.e. `>= 1.0.0`.
+Its version can be found in its [package.xml](package.xml) and its change history can be found in its [CHANGELOG](CHANGELOG.rst).
 
 ### Public API Declaration [1.iii]
 
@@ -85,8 +86,8 @@ The nightly test can be found at [here](http://build.ros2.org/view/Epr/job/Epr__
 
 ### Direct Runtime ROS Dependencies [5.i]/[5.ii]
 
-`lifecycle_msgs` has the following ROS dependencies:
-* `rosidl_default_runtime`
+`lifecycle_msgs` has the following ROS dependencies, which are at or above QL 3:
+* `rosidl_default_runtime`: [QL 3](https://github.com/ros2/rosidl_defaults/tree/master/rosidl_default_runtime/QUALITY_DECLARATION.md)
 
 It has several "buildtool" dependencies, which do not affect the resulting quality of the package, because they do not contribute to the public library API.
 
@@ -106,4 +107,4 @@ Currently nightly results can be seen here:
 
 ## Vulnerability Disclosure Policy [7.i]
 
-This package does not yet have a Vulnerability Disclosure Policy
+This package conforms to the Vulnerability Disclosure Policy in [REP-2006](https://www.ros.org/reps/rep-2006.html).
