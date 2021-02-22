@@ -1,1 +1,1 @@
-{"trim": "", "base": "0cddb32", "trimbase": "", "parent": "debian/rolling/builtin_interfaces", "previous": "fdb6350"}
+{"base": "90bcf89", "parent": "debian/rolling/builtin_interfaces", "previous": "0d87ddf", "trim": "", "trimbase": ""}
