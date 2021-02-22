@@ -1,1 +1,1 @@
-{"trim": "", "base": "f7f5043", "trimbase": "", "parent": "debian/rolling/composition_interfaces", "previous": "25b29e4"}
+{"base": "25f8e0a", "parent": "debian/rolling/composition_interfaces", "previous": "5bc23d6", "trim": "", "trimbase": ""}
