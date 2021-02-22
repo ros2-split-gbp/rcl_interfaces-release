@@ -1,1 +1,1 @@
-{"trim": "", "base": "2efe2de", "trimbase": "", "parent": "debian/rolling/lifecycle_msgs", "previous": "69c3ac3"}
+{"base": "883ad6b", "parent": "debian/rolling/lifecycle_msgs", "previous": "26f4a8f", "trim": "", "trimbase": ""}
