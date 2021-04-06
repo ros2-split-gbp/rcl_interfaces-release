@@ -3,10 +3,10 @@ This is a package containing message definitions relating to the ROS Computation
 
 For more information about ROS 2 clock, see [design.ros2.org](https://design.ros2.org/articles/clock_and_time.html).
 
-For more information about ROS 2 interfaces, see [index.ros2.org](https://index.ros.org/doc/ros2/Concepts/About-ROS-Interfaces/).
+For more information about ROS 2 interfaces, see [docs.ros.org](https://docs.ros.org/en/rolling/Concepts/About-ROS-Interfaces.html).
 
 ## Messages (.msg)
 * [Clock](msg/Clock.msg): Communicates the current ROS time.
 
 ## Quality Declaration
-This package claims to be in the **Quality Level 2** category, see the [Quality Declaration](QUALITY_DECLARATION.md) for more details.
+This package claims to be in the **Quality Level 1** category, see the [Quality Declaration](QUALITY_DECLARATION.md) for more details.
