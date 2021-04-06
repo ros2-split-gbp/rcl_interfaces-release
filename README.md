@@ -1,11 +1,12 @@
-# rcl_interfaces repository
-This repository contains a set of packages that primarily contain interface files (.msg and .srv) which are used both to implement client library concepts and for testing.
+# rosgraph_msgs
+This is a package containing message definitions relating to the ROS Computation Graph. These are generally considered to be low-level messages that end users do not interact with.
 
-# rcl_interface packages
-* [action_msgs](action_msgs/README.md): Messages and services for [ROS 2 actions](http://design.ros2.org/articles/actions.html)
-* [builtin_interfaces](builtin_interfaces/README.md): Message definitions for types in the OMG IDL Platform Specific Model
-* [composition_interfaces](composition_interfaces/README.md): Services for managing composeable nodes.
-* [lifecycle_msgs](lifecycle_msgs/README.md): Message and service definitions for managing lifecycle nodes.
-* [rcl_interfaces](rcl_interfaces/README.md): Message and service definitions for ROS client libraries
-* [rosgraph_msgs](rosgraph_msgs/README.md): Message definitions relating the ROS Computation Graph
-* test_msgs: Used exclusively for testing purposes
+For more information about ROS 2 clock, see [design.ros2.org](https://design.ros2.org/articles/clock_and_time.html).
+
+For more information about ROS 2 interfaces, see [docs.ros.org](https://docs.ros.org/en/rolling/Concepts/About-ROS-Interfaces.html).
+
+## Messages (.msg)
+* [Clock](msg/Clock.msg): Communicates the current ROS time.
+
+## Quality Declaration
+This package claims to be in the **Quality Level 1** category, see the [Quality Declaration](QUALITY_DECLARATION.md) for more details.
