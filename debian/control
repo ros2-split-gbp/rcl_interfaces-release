@@ -1,0 +1,12 @@
+Source: ros-galactic-builtin-interfaces
+Section: misc
+Priority: optional
+Maintainer: Chris Lalancette <clalancette@openrobotics.org>
+Build-Depends: debhelper (>= 9.0.0), ros-galactic-ament-cmake, ros-galactic-ament-lint-common, ros-galactic-rosidl-default-generators, ros-galactic-ros-workspace, ros-galactic-rosidl-typesupport-fastrtps-c, ros-galactic-rosidl-typesupport-fastrtps-cpp
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-galactic-builtin-interfaces
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-galactic-rosidl-default-runtime, ros-galactic-ros-workspace
+Description: A package containing message and service definitions for types defined in the OMG IDL Platform Specific Model.
