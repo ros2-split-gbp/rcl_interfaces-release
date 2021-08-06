@@ -1,23 +1,11 @@
-# lifecycle_msgs
-This package contains message and service definitions for managing lifecycle nodes.
-These messages and services form a standardized interface for transitioning these
-managed nodes through a known state-machine.
+# rcl_interfaces repository
+This repository contains a set of packages that primarily contain interface files (.msg and .srv) which are used both to implement client library concepts and for testing.
 
-For more information about life cycle nodes see: [design.ros2.org](http://design.ros2.org/articles/node_lifecycle.html).
-
-For more information about ROS 2 interfaces, see [docs.ros.org](https://docs.ros.org/en/rolling/Concepts/About-ROS-Interfaces.html).
-
-## Messages (.msg)
-* [State](msg/State.msg): A lifecycle node's state-machine state.
-* [Transition](msg/Transition.msg): A state transition with specific id and label.
-* [TransitionDescription](msg/TransitionDescription.msg): A description of a transition from one state-machine state to another.
-* [TransitionEvent](msg/TransitionEvent.msg): A timestamped state transition.
-
-## Services (.srv)
-* [ChangeState](srv/ChangeState.srv): Request a node change states with a specific transition.
-* [GetAvailableStates](srv/GetAvailableStates.srv): Request an array of states that this node can transition to.
-* [GetAvailableTransitions](srv/GetAvailableTransitions.srv): Request an array of lifecycle state transitions available for this node.
-* [GetState](srv/GetState.srv): Request the current lifecycle state of this node.
-
-## Quality Declaration
-This package claims to be in the **Quality Level 1** category, see the [Quality Declaration](QUALITY_DECLARATION.md) for more details.
+# rcl_interface packages
+* [action_msgs](action_msgs/README.md): Messages and services for [ROS 2 actions](http://design.ros2.org/articles/actions.html)
+* [builtin_interfaces](builtin_interfaces/README.md): Message definitions for types in the OMG IDL Platform Specific Model
+* [composition_interfaces](composition_interfaces/README.md): Services for managing composeable nodes.
+* [lifecycle_msgs](lifecycle_msgs/README.md): Message and service definitions for managing lifecycle nodes.
+* [rcl_interfaces](rcl_interfaces/README.md): Message and service definitions for ROS client libraries
+* [rosgraph_msgs](rosgraph_msgs/README.md): Message definitions relating the ROS Computation Graph
+* test_msgs: Used exclusively for testing purposes
