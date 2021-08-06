@@ -1,3 +1,34 @@
+## rcl_interfaces (rolling) - 1.1.0-1
+
+The packages in the `rcl_interfaces` repository were released into the `rolling` distro by running `/usr/bin/bloom-release --track rolling --rosdistro rolling rcl_interfaces` on `Fri, 06 Aug 2021 22:09:55 -0000`
+
+These packages were released:
+- `action_msgs`
+- `builtin_interfaces`
+- `composition_interfaces`
+- `lifecycle_msgs`
+- `rcl_interfaces`
+- `rosgraph_msgs`
+- `statistics_msgs`
+- `test_msgs`
+
+Version of package(s) in repository `rcl_interfaces`:
+
+- upstream repository: https://github.com/ros2/rcl_interfaces.git
+- release repository: https://github.com/ros2-gbp/rcl_interfaces-release.git
+- rosdistro version: `1.0.3-1`
+- old version: `1.0.3-1`
+- new version: `1.1.0-1`
+
+Versions of tools used:
+
+- bloom version: `0.10.7`
+- catkin_pkg version: `0.4.23`
+- rosdep version: `0.19.0`
+- rosdistro version: `0.8.2`
+- vcstools version: `0.1.42`
+
+
 ## rcl_interfaces (rolling) - 1.0.3-1
 
 The packages in the `rcl_interfaces` repository were released into the `rolling` distro by running `/usr/bin/bloom-release --track rolling --rosdistro rolling rcl_interfaces` on `Tue, 06 Apr 2021 15:16:54 -0000`
