@@ -2,6 +2,9 @@
 Changelog for package statistics_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+1.1.0 (2021-08-06)
+------------------
+
 1.0.3 (2021-04-06)
 ------------------
 * Updating Quality Declaration (`#120 <https://github.com/ros2/rcl_interfaces/issues/120>`_)
