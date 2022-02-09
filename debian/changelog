@@ -1,0 +1,111 @@
+ros-rolling-statistics-msgs (1.1.0-2bullseye) bullseye; urgency=high
+
+
+
+ -- Chris Lalancette <clalancette@openrobotics.org>  Fri, 06 Aug 2021 07:00:00 -0000
+
+ros-rolling-statistics-msgs (1.0.3-2bullseye) bullseye; urgency=high
+
+  * Updating Quality Declaration (#120 <https://github.com/ros2/rcl_interfaces/issues/120>)
+  * Contributors: shonigmann
+
+ -- Chris Lalancette <clalancette@openrobotics.org>  Tue, 06 Apr 2021 07:00:00 -0000
+
+ros-rolling-statistics-msgs (1.0.2-2bullseye) bullseye; urgency=high
+
+  * Update quality declaration to QL 1. (#116 <https://github.com/ros2/rcl_interfaces/issues/116>)
+  * Update package maintainers. (#112 <https://github.com/ros2/rcl_interfaces/issues/112>)
+  * Contributors: Chris Lalancette, Michel Hidalgo, Stephen Brawner
+
+ -- Chris Lalancette <clalancette@openrobotics.org>  Mon, 22 Feb 2021 08:00:00 -0000
+
+ros-rolling-statistics-msgs (1.0.1-2bullseye) bullseye; urgency=high
+
+  * Increase Quality level of packages to 3 (#108 <https://github.com/ros2/rcl_interfaces/issues/108>)
+  * Add Security Vulnerability Policy pointing to REP-2006. (#106 <https://github.com/ros2/rcl_interfaces/issues/106>)
+  * Updating QD to reflect package versions (#107 <https://github.com/ros2/rcl_interfaces/issues/107>)
+  * Contributors: Chris Lalancette, brawner
+
+ -- Chris Lalancette <clalancette@openrobotics.org>  Mon, 29 Jun 2020 07:00:00 -0000
+
+ros-rolling-statistics-msgs (1.0.0-2bullseye) bullseye; urgency=high
+
+  * Add quality declaration for statistics_msgs (#102 <https://github.com/ros2/rcl_interfaces/issues/102>)
+  * Contributors: brawner
+
+ -- Chris Lalancette <clalancette@openrobotics.org>  Tue, 26 May 2020 07:00:00 -0000
+
+ros-rolling-statistics-msgs (0.9.0-2bullseye) bullseye; urgency=high
+
+  * Add new messages for topic statistics (#98 <https://github.com/ros2/rcl_interfaces/issues/98>)
+  * Contributors: Prajakta Gokhale
+
+ -- Chris Lalancette <clalancette@openrobotics.org>  Sat, 25 Apr 2020 07:00:00 -0000
+
+ros-rolling-statistics-msgs (0.8.0-2bullseye) bullseye; urgency=high
+
+
+
+ -- Chris Lalancette <clalancette@openrobotics.org>  Thu, 26 Sep 2019 07:00:00 -0000
+
+ros-rolling-statistics-msgs (0.7.4-2bullseye) bullseye; urgency=high
+
+
+
+ -- Chris Lalancette <clalancette@openrobotics.org>  Wed, 29 May 2019 07:00:00 -0000
+
+ros-rolling-statistics-msgs (0.7.3-2bullseye) bullseye; urgency=high
+
+
+
+ -- Chris Lalancette <clalancette@openrobotics.org>  Mon, 20 May 2019 07:00:00 -0000
+
+ros-rolling-statistics-msgs (0.7.2-2bullseye) bullseye; urgency=high
+
+
+
+ -- Chris Lalancette <clalancette@openrobotics.org>  Wed, 08 May 2019 07:00:00 -0000
+
+ros-rolling-statistics-msgs (0.7.1-2bullseye) bullseye; urgency=high
+
+
+
+ -- Chris Lalancette <clalancette@openrobotics.org>  Fri, 26 Apr 2019 07:00:00 -0000
+
+ros-rolling-statistics-msgs (0.7.0-2bullseye) bullseye; urgency=high
+
+
+
+ -- Chris Lalancette <clalancette@openrobotics.org>  Sun, 14 Apr 2019 07:00:00 -0000
+
+ros-rolling-statistics-msgs (0.6.2-2bullseye) bullseye; urgency=high
+
+
+
+ -- Chris Lalancette <clalancette@openrobotics.org>  Fri, 11 Jan 2019 08:00:00 -0000
+
+ros-rolling-statistics-msgs (0.6.1-2bullseye) bullseye; urgency=high
+
+
+
+ -- Chris Lalancette <clalancette@openrobotics.org>  Thu, 06 Dec 2018 08:00:00 -0000
+
+ros-rolling-statistics-msgs (0.6.0-2bullseye) bullseye; urgency=high
+
+
+
+ -- Chris Lalancette <clalancette@openrobotics.org>  Fri, 16 Nov 2018 08:00:00 -0000
+
+ros-rolling-statistics-msgs (0.5.0-2bullseye) bullseye; urgency=high
+
+
+
+ -- Chris Lalancette <clalancette@openrobotics.org>  Sun, 24 Jun 2018 07:00:00 -0000
+
+ros-rolling-statistics-msgs (0.4.0-2bullseye) bullseye; urgency=high
+
+
+
+ -- Chris Lalancette <clalancette@openrobotics.org>  Fri, 08 Dec 2017 08:00:00 -0000
+
+
