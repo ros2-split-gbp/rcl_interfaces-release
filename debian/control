@@ -1,0 +1,13 @@
+Source: ros-rolling-rcl-interfaces
+Section: misc
+Priority: optional
+Maintainer: Chris Lalancette <clalancette@openrobotics.org>
+Build-Depends: debhelper (>= 9.0.0), ros-rolling-ament-cmake, ros-rolling-ament-lint-auto, ros-rolling-ament-lint-common, ros-rolling-builtin-interfaces, ros-rolling-rosidl-default-generators, ros-rolling-ros-workspace, ros-rolling-rosidl-typesupport-fastrtps-c, ros-rolling-rosidl-typesupport-fastrtps-cpp
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-rolling-rcl-interfaces
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-rolling-builtin-interfaces, ros-rolling-rosidl-default-runtime, ros-rolling-ros-workspace
+Description: The ROS client library common interfaces.
+ This package contains the messages and services which ROS client libraries will use under the hood to communicate higher level concepts such as parameters.
