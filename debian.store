@@ -1,1 +1,1 @@
-{"base": "87dcd27", "parent": "debian/rolling/rcl_interfaces", "previous": "5221dd5", "trim": "", "trimbase": ""}
+{"base": "548acd6", "parent": "debian/humble/rcl_interfaces", "previous": "1ffaca2", "trim": "", "trimbase": ""}
