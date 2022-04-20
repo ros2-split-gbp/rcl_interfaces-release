@@ -1,0 +1,124 @@
+ros-humble-builtin-interfaces (1.2.0-2jammy) jammy; urgency=high
+
+  * Update maintainers to Chris Lalancette (#130 <https://github.com/ros2/rcl_interfaces/issues/130>)
+  * Contributors: Audrow Nash
+
+ -- Chris Lalancette <clalancette@openrobotics.org>  Tue, 01 Mar 2022 08:00:00 -0000
+
+ros-humble-builtin-interfaces (1.1.0-2jammy) jammy; urgency=high
+
+
+
+ -- Chris Lalancette <clalancette@openrobotics.org>  Fri, 06 Aug 2021 07:00:00 -0000
+
+ros-humble-builtin-interfaces (1.0.3-2jammy) jammy; urgency=high
+
+  * Change index.ros.org -> docs.ros.org. (#122 <https://github.com/ros2/rcl_interfaces/issues/122>)
+  * Updating Quality Declaration (#120 <https://github.com/ros2/rcl_interfaces/issues/120>)
+  * Contributors: Chris Lalancette, shonigmann
+
+ -- Chris Lalancette <clalancette@openrobotics.org>  Tue, 06 Apr 2021 07:00:00 -0000
+
+ros-humble-builtin-interfaces (1.0.2-2jammy) jammy; urgency=high
+
+  * Update quality declaration to QL 1. (#116 <https://github.com/ros2/rcl_interfaces/issues/116>)
+  * Update package maintainers. (#112 <https://github.com/ros2/rcl_interfaces/issues/112>)
+  * Contributors: Chris Lalancette, Michel Hidalgo, Stephen Brawner
+
+ -- Chris Lalancette <clalancette@openrobotics.org>  Mon, 22 Feb 2021 08:00:00 -0000
+
+ros-humble-builtin-interfaces (1.0.1-2jammy) jammy; urgency=high
+
+  * Increase Quality level of packages to 3 (#108 <https://github.com/ros2/rcl_interfaces/issues/108>)
+  * Document that Time and Duration are explictly ROS Time (#103 <https://github.com/ros2/rcl_interfaces/issues/103>)
+  * Add Security Vulnerability Policy pointing to REP-2006. (#106 <https://github.com/ros2/rcl_interfaces/issues/106>)
+  * Updating QD to reflect package versions (#107 <https://github.com/ros2/rcl_interfaces/issues/107>)
+  * Contributors: Chris Lalancette, Tully Foote, brawner
+
+ -- Chris Lalancette <clalancette@openrobotics.org>  Mon, 29 Jun 2020 07:00:00 -0000
+
+ros-humble-builtin-interfaces (1.0.0-2jammy) jammy; urgency=high
+
+  * Add quality declarations for each package except test_msgs (#92 <https://github.com/ros2/rcl_interfaces/issues/92>)
+  * Contributors: brawner
+
+ -- Chris Lalancette <clalancette@openrobotics.org>  Tue, 26 May 2020 07:00:00 -0000
+
+ros-humble-builtin-interfaces (0.9.0-2jammy) jammy; urgency=high
+
+
+
+ -- Chris Lalancette <clalancette@openrobotics.org>  Sat, 25 Apr 2020 07:00:00 -0000
+
+ros-humble-builtin-interfaces (0.8.0-2jammy) jammy; urgency=high
+
+
+
+ -- Chris Lalancette <clalancette@openrobotics.org>  Thu, 26 Sep 2019 07:00:00 -0000
+
+ros-humble-builtin-interfaces (0.7.4-2jammy) jammy; urgency=high
+
+
+
+ -- Chris Lalancette <clalancette@openrobotics.org>  Wed, 29 May 2019 07:00:00 -0000
+
+ros-humble-builtin-interfaces (0.7.3-2jammy) jammy; urgency=high
+
+
+
+ -- Chris Lalancette <clalancette@openrobotics.org>  Mon, 20 May 2019 07:00:00 -0000
+
+ros-humble-builtin-interfaces (0.7.2-2jammy) jammy; urgency=high
+
+
+
+ -- Chris Lalancette <clalancette@openrobotics.org>  Wed, 08 May 2019 07:00:00 -0000
+
+ros-humble-builtin-interfaces (0.7.1-2jammy) jammy; urgency=high
+
+
+
+ -- Chris Lalancette <clalancette@openrobotics.org>  Fri, 26 Apr 2019 07:00:00 -0000
+
+ros-humble-builtin-interfaces (0.7.0-2jammy) jammy; urgency=high
+
+  * Description says package is for DDS types (#59 <https://github.com/ros2/rcl_interfaces/issues/59>)
+  * Contributors: Shane Loretz
+
+ -- Chris Lalancette <clalancette@openrobotics.org>  Sun, 14 Apr 2019 07:00:00 -0000
+
+ros-humble-builtin-interfaces (0.6.2-2jammy) jammy; urgency=high
+
+
+
+ -- Chris Lalancette <clalancette@openrobotics.org>  Fri, 11 Jan 2019 08:00:00 -0000
+
+ros-humble-builtin-interfaces (0.6.1-2jammy) jammy; urgency=high
+
+
+
+ -- Chris Lalancette <clalancette@openrobotics.org>  Thu, 06 Dec 2018 08:00:00 -0000
+
+ros-humble-builtin-interfaces (0.6.0-2jammy) jammy; urgency=high
+
+  * use add_compile_options instead of setting only cxx flags
+  * Contributors: Mikael Arguedas
+
+ -- Chris Lalancette <clalancette@openrobotics.org>  Fri, 16 Nov 2018 08:00:00 -0000
+
+ros-humble-builtin-interfaces (0.5.0-2jammy) jammy; urgency=high
+
+
+
+ -- Chris Lalancette <clalancette@openrobotics.org>  Sun, 24 Jun 2018 07:00:00 -0000
+
+ros-humble-builtin-interfaces (0.4.0-2jammy) jammy; urgency=high
+
+  * member of rosidl_interfaces_packages group (#28 <https://github.com/ros2/rcl_interfaces/issues/28>)
+  * Merge pull request #26 <https://github.com/ros2/rcl_interfaces/issues/26> from ros2/move_builtin_to_rcl_interfaces
+  * add builtin_interfaces into its own folder
+  * Contributors: Mikael Arguedas
+
+ -- Chris Lalancette <clalancette@openrobotics.org>  Fri, 08 Dec 2017 08:00:00 -0000
+
+
