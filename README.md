@@ -1,11 +1,40 @@
-# rcl_interfaces repository
-This repository contains a set of packages that primarily contain interface files (.msg and .srv) which are used both to implement client library concepts and for testing.
+# metrics_statistics_msgs
 
-# rcl_interface packages
-* [action_msgs](action_msgs/README.md): Messages and services for [ROS 2 actions](http://design.ros2.org/articles/actions.html)
-* [builtin_interfaces](builtin_interfaces/README.md): Message definitions for types in the OMG IDL Platform Specific Model
-* [composition_interfaces](composition_interfaces/README.md): Services for managing composeable nodes.
-* [lifecycle_msgs](lifecycle_msgs/README.md): Message and service definitions for managing lifecycle nodes.
-* [rcl_interfaces](rcl_interfaces/README.md): Message and service definitions for ROS client libraries
-* [rosgraph_msgs](rosgraph_msgs/README.md): Message definitions relating the ROS Computation Graph
-* test_msgs: Used exclusively for testing purposes
+Package containing ROS 2 message definitions for reporting
+statistics for topics and system resources.
+
+## Messages defined in this package
+
+1. StatisticDataType
+
+   A message that represent the types of statistics reported.
+   This defines the following data types that can be used to represent
+   individual metric data points.
+   * `average`
+   * `minimum`
+   * `maximum`
+   * `stddev`
+   * `sample_count`
+
+1. StatisticDataPoint
+
+   A message that represents a single statistic value.
+   This includes:
+   * `data_type`: Type of the metric data point, as defined in `StatisticDataType`.
+   * `data`: Value of the metric data point.
+
+1. MetricsMessage
+
+   A message that represents statistic data measured from a source
+   within a time window.
+   This includes:
+   * `measurement_source_name`: Source from where the measurement or statistic originates.
+   * `metrics_source`: Name of the metric.
+   * `unit`: Unit representing the metric.
+   * `window_start`: Start time of the metric measurement window.
+   * `window_stop`: End time of the metric measurement window.
+   * `statistics`: A list of `StatisticDataPoint` representing the values
+   of collected metrics.
+
+## Quality Declaration
+This package claims to be in the **Quality Level 1** category, see the [Quality Declaration](QUALITY_DECLARATION.md) for more details.
