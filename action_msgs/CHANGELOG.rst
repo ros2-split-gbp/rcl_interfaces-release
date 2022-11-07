@@ -2,12 +2,7 @@
 Changelog for package action_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-1.3.1 (2022-09-09)
-------------------
-* Depend on rosidl_core_generators for packages required by actions (`#144 <https://github.com/ros2/rcl_interfaces/issues/144>`_)
-* Contributors: Jacob Perron
-
-1.3.0 (2022-04-29)
+1.2.1 (2022-11-07)
 ------------------
 
 1.2.0 (2022-03-01)
