@@ -1,0 +1,129 @@
+ros-rolling-service-msgs (1.4.0-1bullseye) bullseye; urgency=high
+
+  * Update common_interfaces to C++17. (#215 <https://github.com/ros2/rcl_interfaces/issues/215>) (#151 <https://github.com/ros2/rcl_interfaces/issues/151>)
+  * Add service_msgs package (#143 <https://github.com/ros2/rcl_interfaces/issues/143>)
+  * Contributors: Brian, Chris Lalancette
+
+ -- Jacob Perron <jacob@openrobotics.org>  Mon, 13 Feb 2023 00:00:00 -0000
+
+ros-rolling-service-msgs (1.3.1-1bullseye) bullseye; urgency=high
+
+
+
+ -- Jacob Perron <jacob@openrobotics.org>  Fri, 09 Sep 2022 00:00:00 -0000
+
+ros-rolling-service-msgs (1.3.0-1bullseye) bullseye; urgency=high
+
+
+
+ -- Jacob Perron <jacob@openrobotics.org>  Fri, 29 Apr 2022 00:00:00 -0000
+
+ros-rolling-service-msgs (1.2.0-1bullseye) bullseye; urgency=high
+
+
+
+ -- Jacob Perron <jacob@openrobotics.org>  Tue, 01 Mar 2022 00:00:00 -0000
+
+ros-rolling-service-msgs (1.1.0-1bullseye) bullseye; urgency=high
+
+
+
+ -- Jacob Perron <jacob@openrobotics.org>  Fri, 06 Aug 2021 00:00:00 -0000
+
+ros-rolling-service-msgs (1.0.3-1bullseye) bullseye; urgency=high
+
+
+
+ -- Jacob Perron <jacob@openrobotics.org>  Tue, 06 Apr 2021 00:00:00 -0000
+
+ros-rolling-service-msgs (1.0.2-1bullseye) bullseye; urgency=high
+
+
+
+ -- Jacob Perron <jacob@openrobotics.org>  Mon, 22 Feb 2021 00:00:00 -0000
+
+ros-rolling-service-msgs (1.0.1-1bullseye) bullseye; urgency=high
+
+
+
+ -- Jacob Perron <jacob@openrobotics.org>  Mon, 29 Jun 2020 00:00:00 -0000
+
+ros-rolling-service-msgs (1.0.0-1bullseye) bullseye; urgency=high
+
+
+
+ -- Jacob Perron <jacob@openrobotics.org>  Tue, 26 May 2020 00:00:00 -0000
+
+ros-rolling-service-msgs (0.9.0-1bullseye) bullseye; urgency=high
+
+
+
+ -- Jacob Perron <jacob@openrobotics.org>  Sat, 25 Apr 2020 00:00:00 -0000
+
+ros-rolling-service-msgs (0.8.0-1bullseye) bullseye; urgency=high
+
+
+
+ -- Jacob Perron <jacob@openrobotics.org>  Thu, 26 Sep 2019 00:00:00 -0000
+
+ros-rolling-service-msgs (0.7.4-1bullseye) bullseye; urgency=high
+
+
+
+ -- Jacob Perron <jacob@openrobotics.org>  Wed, 29 May 2019 00:00:00 -0000
+
+ros-rolling-service-msgs (0.7.3-1bullseye) bullseye; urgency=high
+
+
+
+ -- Jacob Perron <jacob@openrobotics.org>  Mon, 20 May 2019 00:00:00 -0000
+
+ros-rolling-service-msgs (0.7.2-1bullseye) bullseye; urgency=high
+
+
+
+ -- Jacob Perron <jacob@openrobotics.org>  Wed, 08 May 2019 00:00:00 -0000
+
+ros-rolling-service-msgs (0.7.1-1bullseye) bullseye; urgency=high
+
+
+
+ -- Jacob Perron <jacob@openrobotics.org>  Fri, 26 Apr 2019 00:00:00 -0000
+
+ros-rolling-service-msgs (0.7.0-1bullseye) bullseye; urgency=high
+
+
+
+ -- Jacob Perron <jacob@openrobotics.org>  Sun, 14 Apr 2019 00:00:00 -0000
+
+ros-rolling-service-msgs (0.6.2-1bullseye) bullseye; urgency=high
+
+
+
+ -- Jacob Perron <jacob@openrobotics.org>  Fri, 11 Jan 2019 00:00:00 -0000
+
+ros-rolling-service-msgs (0.6.1-1bullseye) bullseye; urgency=high
+
+
+
+ -- Jacob Perron <jacob@openrobotics.org>  Thu, 06 Dec 2018 00:00:00 -0000
+
+ros-rolling-service-msgs (0.6.0-1bullseye) bullseye; urgency=high
+
+
+
+ -- Jacob Perron <jacob@openrobotics.org>  Fri, 16 Nov 2018 00:00:00 -0000
+
+ros-rolling-service-msgs (0.5.0-1bullseye) bullseye; urgency=high
+
+
+
+ -- Jacob Perron <jacob@openrobotics.org>  Sun, 24 Jun 2018 00:00:00 -0000
+
+ros-rolling-service-msgs (0.4.0-1bullseye) bullseye; urgency=high
+
+
+
+ -- Jacob Perron <jacob@openrobotics.org>  Fri, 08 Dec 2017 00:00:00 -0000
+
+
