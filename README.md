@@ -1,11 +1,13 @@
-# rcl_interfaces repository
-This repository contains a set of packages that primarily contain interface files (.msg and .srv) which are used both to implement client library concepts and for testing.
+# composition_interfaces
+This is a package containing message and service definitions for managing composable nodes in a container process.
+Generally these services are used by the ROS 2 [`roslaunch`](https://design.ros2.org/articles/roslaunch.html) system.
 
-# rcl_interface packages
-* [action_msgs](action_msgs/README.md): Messages and services for [ROS 2 actions](http://design.ros2.org/articles/actions.html)
-* [builtin_interfaces](builtin_interfaces/README.md): Message definitions for types in the OMG IDL Platform Specific Model
-* [composition_interfaces](composition_interfaces/README.md): Services for managing composeable nodes.
-* [lifecycle_msgs](lifecycle_msgs/README.md): Message and service definitions for managing lifecycle nodes.
-* [rcl_interfaces](rcl_interfaces/README.md): Message and service definitions for ROS client libraries
-* [rosgraph_msgs](rosgraph_msgs/README.md): Message definitions relating the ROS Computation Graph
-* test_msgs: Used exclusively for testing purposes
+For more information about ROS 2 interfaces, see [docs.ros.org](https://docs.ros.org/en/rolling/Concepts/About-ROS-Interfaces.html).
+
+## Services (.srv)
+* [ListNodes](srv/ListNodes.srv): Retrieve a list of running composable nodes, including their names and ids.
+* [LoadNodes](srv/LoadNode.srv): Load a composable node.
+* [UnloadNode](srv/UnloadNode.srv): Unload a specified node by its id.
+
+## Quality Declaration
+This package claims to be in the **Quality Level 1** category, see the [Quality Declaration](QUALITY_DECLARATION.md) for more details.
