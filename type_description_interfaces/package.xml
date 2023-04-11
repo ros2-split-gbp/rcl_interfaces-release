@@ -1,25 +1,19 @@
 <?xml version="1.0"?>
 <?xml-model href="http://download.ros.org/schema/package_format3.xsd" schematypens="http://www.w3.org/2001/XMLSchema"?>
 <package format="3">
-  <name>action_msgs</name>
+  <name>type_description_interfaces</name>
   <version>1.5.0</version>
-  <description>Messages and service definitions common among all ROS actions.</description>
+  <description>A package containing message and service definitions for describing and communicating descriptions of other types.</description>
 
-  <maintainer email="geoff@openrobotics.org">Geoffrey Biggs</maintainer>
+  <maintainer email="william@openrobotics.org">William Woodall</maintainer>
 
   <license>Apache License 2.0</license>
 
-  <author email="clalancette@openrobotics.org">Chris Lalancette</author>
-  <author email="jacob@openrobotics.org">Jacob Perron</author>
-  <author email="karsten@osrfoundation.org">Karsten Knese</author>
-  <author email="michel@ekumenlabs.com">Michel Hidalgo</author>
-
   <buildtool_depend>ament_cmake</buildtool_depend>
+
   <buildtool_depend>rosidl_core_generators</buildtool_depend>
 
-  <depend>builtin_interfaces</depend>
   <depend>service_msgs</depend>
-  <depend>unique_identifier_msgs</depend>
 
   <exec_depend>rosidl_core_runtime</exec_depend>
 
