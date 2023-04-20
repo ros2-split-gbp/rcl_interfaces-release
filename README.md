@@ -1,13 +1,11 @@
-# builtin_interfaces
-A package containing message definitions for types defined in the OMG IDL Platform Specific Model.
+# rcl_interfaces repository
+This repository contains a set of packages that primarily contain interface files (.msg and .srv) which are used both to implement client library concepts and for testing.
 
-For more information about ROS 2 time, see [design.ros2.org](https://design.ros2.org/articles/clock_and_time.html).
-
-For more information about ROS 2 interfaces, see [docs.ros.org](https://docs.ros.org/en/rolling/Concepts/About-ROS-Interfaces.html).
-
-## Messages (.msg)
-* [Duration](msg/Duration.msg): Describes a time duration composed of seconds and nanoseconds components.
-* [Time](msg/Time.msg): Describes a point in time, composed of seconds and nanoseconds components.
-
-## Quality Declaration
-This package claims to be in the **Quality Level 1** category, see the [Quality Declaration](QUALITY_DECLARATION.md) for more details.
+# rcl_interface packages
+* [action_msgs](action_msgs/README.md): Messages and services for [ROS 2 actions](http://design.ros2.org/articles/actions.html)
+* [builtin_interfaces](builtin_interfaces/README.md): Message definitions for types in the OMG IDL Platform Specific Model
+* [composition_interfaces](composition_interfaces/README.md): Services for managing composeable nodes.
+* [lifecycle_msgs](lifecycle_msgs/README.md): Message and service definitions for managing lifecycle nodes.
+* [rcl_interfaces](rcl_interfaces/README.md): Message and service definitions for ROS client libraries
+* [rosgraph_msgs](rosgraph_msgs/README.md): Message definitions relating the ROS Computation Graph
+* test_msgs: Used exclusively for testing purposes
