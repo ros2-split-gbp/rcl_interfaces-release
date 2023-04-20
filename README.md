@@ -1,18 +1,11 @@
-# service_msgs
+# rcl_interfaces repository
+This repository contains a set of packages that primarily contain interface files (.msg and .srv) which are used both to implement client library concepts and for testing.
 
-This package contains message types used by ROS services.
-
-For more information about ROS services, check out the following links:
-
-* [About ROS 2 interfaces](https://docs.ros.org/en/rolling/Concepts/About-ROS-Interfaces.html)
-* [Understanding services](https://docs.ros.org/en/rolling/Tutorials/Beginner-CLI-Tools/Understanding-ROS2-Services/Understanding-ROS2-Services.html)
-
-## Messages (.msg)
-
-* [ServiceEventInfo](msg/ServiceEventInfo.msg): Part of a service event message that contains information such as timestamp and event type.
-This is part of the Service Introspection feature of ROS 2 (see [REP 2012](https://ros.org/reps/rep-2012.html)).
-
-
-## Quality Declaration
-
-See the [Quality Declaration](QUALITY_DECLARATION.md) for more details.
+# rcl_interface packages
+* [action_msgs](action_msgs/README.md): Messages and services for [ROS 2 actions](http://design.ros2.org/articles/actions.html)
+* [builtin_interfaces](builtin_interfaces/README.md): Message definitions for types in the OMG IDL Platform Specific Model
+* [composition_interfaces](composition_interfaces/README.md): Services for managing composeable nodes.
+* [lifecycle_msgs](lifecycle_msgs/README.md): Message and service definitions for managing lifecycle nodes.
+* [rcl_interfaces](rcl_interfaces/README.md): Message and service definitions for ROS client libraries
+* [rosgraph_msgs](rosgraph_msgs/README.md): Message definitions relating the ROS Computation Graph
+* test_msgs: Used exclusively for testing purposes
