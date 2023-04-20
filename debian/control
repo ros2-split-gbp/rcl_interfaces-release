@@ -1,0 +1,12 @@
+Source: ros-iron-composition-interfaces
+Section: misc
+Priority: optional
+Maintainer: Geoffrey Biggs <geoff@openrobotics.org>
+Build-Depends: debhelper (>= 9.0.0), ros-iron-ament-cmake, ros-iron-ament-lint-common <!nocheck>, ros-iron-rcl-interfaces, ros-iron-rosidl-default-generators, ros-iron-ros-workspace, ros-iron-rosidl-typesupport-fastrtps-c, ros-iron-rosidl-typesupport-fastrtps-cpp
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-iron-composition-interfaces
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-iron-rcl-interfaces, ros-iron-rosidl-default-runtime, ros-iron-ros-workspace
+Description: A package containing message and service definitions for managing composable nodes in a container process.
