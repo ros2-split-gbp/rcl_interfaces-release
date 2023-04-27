@@ -1,0 +1,12 @@
+Source: ros-rolling-type-description-interfaces
+Section: misc
+Priority: optional
+Maintainer: William Woodall <william@openrobotics.org>
+Build-Depends: debhelper (>= 9.0.0), ros-rolling-ament-cmake, ros-rolling-ament-lint-auto <!nocheck>, ros-rolling-ament-lint-common <!nocheck>, ros-rolling-rosidl-core-generators, ros-rolling-service-msgs, ros-rolling-ros-workspace, ros-rolling-rosidl-typesupport-fastrtps-c, ros-rolling-rosidl-typesupport-fastrtps-cpp
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-rolling-type-description-interfaces
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-rolling-rosidl-core-runtime, ros-rolling-service-msgs, ros-rolling-ros-workspace
+Description: A package containing message and service definitions for describing and communicating descriptions of other types.
