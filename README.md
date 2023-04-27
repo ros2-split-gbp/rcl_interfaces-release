@@ -1,21 +1,11 @@
-# type_description_interfaces
+# rcl_interfaces repository
+This repository contains a set of packages that primarily contain interface files (.msg and .srv) which are used both to implement client library concepts and for testing.
 
-A package containing message and service definitions for describing and communicating descriptions of other types.
-
-## Messages (.msg)
-
-* [Field](msg/Field.msg): Represents a single field in a ROS Interface Type
-* [FieldType](msg/FieldType.msg): Represents the type of a single field in a ROS Interface Type
-* [IndividualTypeDescription](msg/IndividualTypeDescription.msg): Represents a single ROS Message Type by itself
-* [TypeDescription](msg/TypeDescription.msg): Represents a single ROS Message Type along with all referenced types
-
-## Quality Declaration
-
-See the [Quality Declaration](QUALITY_DECLARATION.md) for more details.
-
-## TODO
-
-* Should we pick limits (bounds) for strings in these types, e.g. type names, default values, etc?
-* Should we pick limits (bounds) for sequences in these types, e.g. number of referenced types?
-* Consider how to support constants and annotations (currently excluded) and potentially enums in the future.
-* Consider using padding in `IndividualTypeDescription.msg` to support back porting efforts.
+# rcl_interface packages
+* [action_msgs](action_msgs/README.md): Messages and services for [ROS 2 actions](http://design.ros2.org/articles/actions.html)
+* [builtin_interfaces](builtin_interfaces/README.md): Message definitions for types in the OMG IDL Platform Specific Model
+* [composition_interfaces](composition_interfaces/README.md): Services for managing composeable nodes.
+* [lifecycle_msgs](lifecycle_msgs/README.md): Message and service definitions for managing lifecycle nodes.
+* [rcl_interfaces](rcl_interfaces/README.md): Message and service definitions for ROS client libraries
+* [rosgraph_msgs](rosgraph_msgs/README.md): Message definitions relating the ROS Computation Graph
+* test_msgs: Used exclusively for testing purposes
